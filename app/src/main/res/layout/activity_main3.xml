@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="3"
+    android:background="@drawable/image"
+    tools:context=".MainActivity3">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/textback"
+        android:id="@+id/editTextText"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:hint="Encrypted"
+        android:gravity="top"
+        android:maxLines="15"
+        android:ellipsize="end"
+        />
+
+
+    <ImageView
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/convet"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="-10dp"
+
+        android:text="Button" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/textback"
+        android:id="@+id/editTextText2"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:hint="Decryption"
+        android:gravity="top"
+
+        />
+
+</LinearLayout>
